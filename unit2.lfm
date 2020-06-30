@@ -1,0 +1,42 @@
+object Form2: TForm2
+  Left = 432
+  Height = 349
+  Top = 366
+  Width = 439
+  BorderStyle = bsSingle
+  Caption = 'Автор'
+  ClientHeight = 349
+  ClientWidth = 439
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -19
+  Font.Name = 'Times New Roman'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Position = poDesktopCenter
+  LCLVersion = '2.0.8.0'
+  object Label1: TLabel
+    Left = 72
+    Height = 31
+    Top = 56
+    Width = 297
+    Caption = 'Целиков Богдан ИР 19-30'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 296
+    Height = 48
+    Top = 288
+    Width = 131
+    Caption = 'Вернуться'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end
